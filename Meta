@@ -1,0 +1,21 @@
+=meta: 0.0.2
+
+name: YAMLTest
+version: 0.0.1
+abstract: Write tests in YAMLScript
+homepage: https://yamlscript.org
+license: perl
+copyright: 2022
+
+author:
+  name: Ingy döt Net
+  email: ingy@ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+  homepage: http://ingy.net
+
+devel:
+  git: https://github.com/ingydotnet/test-more-yamlscript-pm
+  bug: https://github.com/ingydotnet/test-more-yamlscript-pm/issues
+  irc: irc.libera.chat#yamlscript
