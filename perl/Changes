@@ -1,5 +1,11 @@
 # Revision history for Perl module YAMLTest
 ---
+version: 0.0.4
+date:    Mon 25 Jul 2022 08:57:30 AM PDT
+changes:
+- Refactor code into YAMLScript
+- Bump dep to Test::More::YAMLScript => 0.0.4
+---
 version: 0.0.3
 date:    Mon 25 Jul 2022 06:26:01 AM PDT
 changes:
