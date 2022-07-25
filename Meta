@@ -2,7 +2,7 @@
 
 name: YAMLTest
 version: 0.0.1
-abstract: Write tests in YAMLScript
+abstract: Write tests in YAML/YAMLScript
 homepage: https://yamlscript.org
 license: perl
 copyright: 2022
