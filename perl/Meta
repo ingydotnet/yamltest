@@ -12,7 +12,7 @@ author:
 requires:
   perl: '5.10.1'
   XXX: '0.38'
-  Test::More::YAMLScript: '0.0.2'
+  Test::More::YAMLScript: '0.0.4'
 
 =zild:
   no-readme: true
