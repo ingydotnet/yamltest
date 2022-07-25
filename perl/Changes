@@ -1,5 +1,10 @@
 # Revision history for Perl module YAMLTest
 ---
+version: 0.0.2
+date:    Sun 24 Jul 2022 05:36:42 PM PDT
+changes:
+- Fixes for cpantesters failures
+---
 version: 0.0.1
 date:    Sun 24 Jul 2022 08:13:12 AM PDT
 changes:

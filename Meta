@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: YAMLTest
-version: 0.0.1
+version: 0.0.2
 abstract: Write tests in YAML/YAMLScript
 homepage: https://yamlscript.org
 license: perl
