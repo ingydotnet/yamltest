@@ -11,9 +11,10 @@ author:
 
 requires:
   perl: 5.16.0
-  Test::More::YAMLScript: 0.1.1
+  Test::More::YAMLScript: 0.1.6
 
 =zild:
+  no-about: true
   no-readme: true
   no-travis: true
 
