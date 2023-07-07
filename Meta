@@ -1,11 +1,11 @@
 =meta: 0.0.2
 
 name: YAMLTest
-version: 0.0.4
+version: 0.1.0
 abstract: Write tests in YAML/YAMLScript
 homepage: https://yamlscript.org
 license: perl
-copyright: 2022
+copyright: 2022-2023
 
 author:
   name: Ingy döt Net

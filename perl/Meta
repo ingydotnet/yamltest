@@ -10,9 +10,8 @@ author:
   cpan: INGY
 
 requires:
-  perl: '5.10.1'
-  XXX: '0.38'
-  Test::More::YAMLScript: '0.0.4'
+  perl: 5.16.0
+  Test::More::YAMLScript: 0.1.1
 
 =zild:
   no-readme: true

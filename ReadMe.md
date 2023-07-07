@@ -5,52 +5,29 @@ Write tests in YAMLScript
 
 ## Synopsis
 
-A file `test/test.yt`:
+A file `test/test.t`:
 ```
 #!/usr/bin/env yamltest
 
-- plan: 8
+tests =: !
+- in:  Oh, hello
+  up:  OH, HELLO
+  low: oh, hello
+- in:  I like Pie!
+  up:  I LIKE PIE!
+  low: i like pie!
+- in:  Ready, Set, Go.
+  up:  READY, SET, GO.
+  low: ready, set, go.
 
-- pass: This test will always 'pass'
-
-- todo:
-  - Testing 'todo'
-  - fail: This test will always 'fail'
-
-- note: "NOTE: This is awesome"
-
-- diag: This is a WARNING!
-
-- ok:
-  - true
-  - Testing 'ok'
-
-- is:
-  - add: [2, 2]
-  - 4
-  - 2 + 2 'is' 4
-
-- isnt:
-  - add: [2, 2]
-  - 5
-  - 2 + 2 'isnt' 5
-
-- like:
-  - I like pie!
-  - /\blike\b/
-  - Testing 'like'
-
-- unlike:
-  - Please like me on Facebook
-  - /\bunlike\b/
-  - Testing 'unlike'
-
-- skip:
-  - Skipping - Highway to the danger zone
-  - danger: zone
+- for [test tests]:
+    is:
+    - get(test "in)->toUpperCase()
+    - 
 ```
 
 Run `prove t/test.t`:
+
 ```
 test/test.t ..
 1..8
@@ -74,18 +51,27 @@ Result: PASS
 
 YAMLTest let's you write tests in YAML/YAMLScript.
 
-You just add this shebang line to a `test/test-file.yt`:
+Just add this shebang line to a `test/test-file.t`:
+
 ```
 #!/usr/bin/env yamltest
 ```
+
+## See Also:
+
+* [Test::More::YAMLScript](https://metacpan.org/pod/Test::More::YAMLScript)
+* [YAMLScript](https://metacpan.org/pod/YAMLScript)
+* [Lingy](https://metacpan.org/pod/Lingy)
+
 
 ## Authors
 
 * Ingy döt Net <ingy@ingy.net>
 
+
 ## Copyright and License
 
-Copyright 2022 by Ingy döt Net
+Copyright 2022-2023 by Ingy döt Net
 
 This library is free software and may be distributed under the same terms as
 perl itself.
